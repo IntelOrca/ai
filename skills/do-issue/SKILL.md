@@ -12,8 +12,9 @@ You do not need to create a pull request unless the user requested one
 
 # How
 
-- Once you start working on the issue, you can not ask the user questions
-- Only when you hit a major blocker can you stop and wait for user
+- You can never ask the user questions. Do not use the question tool, and never end a turn with a question.
+- When you cannot decide, choose the option that is (a) reversible and (b) does not change the test or verification apparatus. Record the alternatives and your reasoning under a "Decisions" heading in the branch or PR description, then continue.
+- Stop and end your turn only when no option satisfies both conditions. Write up what you tried, what you ruled out and your best hypothesis, so a human can unblock you in one read. Never wait on input.
 - Break the problem down with sub agents to avoid context rot
 - Once finished, spin off a sub agent to review the changes and provide feedback
 - Implement all feedback from the review sub agent
