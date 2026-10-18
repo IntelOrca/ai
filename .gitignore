@@ -1,0 +1,10 @@
+# Claude Code claude.ai skills-sync cache.
+# Claude writes these into its skills dir; since ~/.claude/skills symlinks into
+# this repo, they would otherwise land here. Sync is disabled via
+# "syncClaudeAiSkills": false in ~/.claude/settings.json — this is a safety net
+# in case it is re-enabled or a future build renames the setting.
+skills/synced/
+skills/.staging/
+skills/.trash/
+skills/.bucket-*
+skills/.synced-at
